@@ -1,18 +1,8 @@
-This tool requires node.js and ElasticSearch.
+Run the import as the following:
 
-Run this first:
+``node importjson.js PORT_NUMBER FILE_NAME``
 
-``$ npm install``
 
-Usage: 
+For exmaple 
 
-``$ node index.js -f [file_name]``
-
-For example 
-
-``$ node index.js -f backup.json``
-
-Should import the backup file "backup.json" into your database.
-
-Only -f is required
-
+``$ node importjson.js 9200 magiccards.json``
