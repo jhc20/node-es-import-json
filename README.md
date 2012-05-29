@@ -1,8 +1,12 @@
-Run the import as the following:
+This tool requires node.js and ElasticSearch.
 
-``node importjson.js PORT_NUMBER FILE_NAME``
+Usage: 
 
+``$ node index.js -f [file_name]``
 
-For exmaple 
+For example: 
 
-``$ node importjson.js 9200 magiccards.json``
+``$ node index.js -f test.json``
+
+Only -f is required
+
